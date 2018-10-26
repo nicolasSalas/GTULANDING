@@ -96,11 +96,11 @@ jQuery(document).ready(function($) {
     var template_params = {
       "reply_to": str[1].value,
       "from_name": str[0].value,
-      "to_name": 'Cintya',
+      "to_name": 'Juan Carlos',
       "message_html": str[3].value
    }
    
-  emailjs.send('gmail', 'template_tIlaNBOa', template_params)
+  emailjs.send('gmail', 'gtucontacto', template_params)
       .then(function(response) {
         console.log('SUCCESS!', response.status, response.text);
         if (response.text == 'OK') {
