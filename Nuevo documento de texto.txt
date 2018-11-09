@@ -1,0 +1,52 @@
+ <!-- aaa -->
+  <!-- Navigation -->
+  <div id="navigation">
+    <nav class="navbar navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="row">
+          <div class="site-logo">
+            <a href="index.html" class="brand">
+              <img src="./img/LOGOGTU1.png" width="20%" alt="logo">
+            </a>
+          </div>
+
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+              <i class="fa fa-bars"></i>
+            </button>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active">
+                <a href="#home" style="font-size: 64%" >Inicio</a>
+              </li>
+              <li>
+                <a href="#arquitectura" style="font-size: 64%">Arquitectura</a>
+              </li> 
+             <!--  <li>
+                <a href="#about" style="font-size: 64%">Nosotros</a>
+              </li> -->
+              <li>
+                <a href="#construccion" style="font-size: 64%">CONSTRUCCIÓN</a>
+              </li>
+              <li>
+                <a href="#corretaje" style="font-size: 64%">Corretaje</a>
+              </li>
+              <li>
+                  <a href="#automatizacion" style="font-size: 64%">AUTOMATIZACIÓN</a>
+                </li>
+              <li>
+                <a href="#contact" style="font-size: 64%">Contacto</a>
+              </li>
+             
+            </ul>
+          </div>
+          <!-- /.Navbar-collapse -->
+        </div>
+      </div>
+      <!-- /.container -->
+    </nav>
+  </div>
+  <!-- /Navigation -->
