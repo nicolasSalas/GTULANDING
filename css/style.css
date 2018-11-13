@@ -14,7 +14,7 @@ body {
     font-family: 'Arial', sans-serif;
 	font-weight: 300;
     color: #666;
-    background-color: #EFEBE9;
+    background-color: #EFEBE9 !important;
 	font-size: 16px;
     line-height: 1.6em;
 	font-weight: 400;
@@ -44,10 +44,12 @@ body {
 
 .navbar {
     margin-bottom: 0;
+
 }
 
 .navbar-brand {
     font-weight: 700;
+   
 }
 
 .navbar-brand:focus {
@@ -63,44 +65,54 @@ body {
 	letter-spacing: 3px;
     color: #666;
 	text-transform: uppercase;
-	font-weight: 700;
+    font-weight: 700;
+    
 }
 
 .navbar-fixed-top.top-nav-collapse ul.nav li a {
-	    -webkit-transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-	color: #fff;
+    color: #fff;
+   
+   
 }
 
 .navbar-fixed-top ul.nav ul.dropdown-menu {
-	  border-radius: 0;	
+	border-radius: 0;	
 	margin-top: 21px;
-	border-top: none;
+    border-top: none;
+   
+    
 }
 
 .navbar-fixed-top ul.nav li a:hover ul.dropdown-menu {
-	    -webkit-transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+   
 }
 
 .navbar-fixed-top ul.nav ul.dropdown-menu li:last-child{
-	border-bottom: none;
+    border-bottom: none;
+   
 }
 
 .navbar-fixed-top ul.nav ul.dropdown-menu li a {
-	padding: 10px 20px;
+    padding: 10px 20px;
+   
 }
 
 .navbar-fixed-top.top-nav-collapse ul.nav ul.dropdown-menu li a {
-	color: #666;
+    color: #666;
+   
 }
 
 .navbar-fixed-top .nav li a {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
+    
 }
 
 .navbar-fixed-top .nav li a:hover,
@@ -108,7 +120,8 @@ body {
 .navbar-fixed-top .nav li.active {
     outline: 0;
     background-color:transparent ;
-	color:#666;
+    color:#EFEBE9;
+    
 }
 
 .navbar-toggle {
@@ -180,7 +193,7 @@ body {
 ============================ */
 
 footer {
-    background-color: #F5F5F5;
+    background-color: #F5F5F5 !important;
 }
 
 footer {
